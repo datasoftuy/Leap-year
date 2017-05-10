@@ -14,7 +14,7 @@ namespace leapyear
             
             
             bool salir = false;
-            string otravez
+            string otravez;
             while (salir != true)
             {
                 int anio, ultimas2_cifras;
