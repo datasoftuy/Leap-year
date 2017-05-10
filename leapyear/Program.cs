@@ -35,7 +35,7 @@ namespace leapyear
                 }
                
                 Console.WriteLine("Desea ingresar otro año s/n");
-                otravez = Console.ReadLine();
+                otravez = Console.ReadLine().ToLower();
                 if (otravez == "n")
                 {
                     salir = true;
