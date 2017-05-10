@@ -14,6 +14,7 @@ namespace leapyear
             
             
             bool salir = false;
+            string otravez
             while (salir != true)
             {
                 int anio, ultimas2_cifras;
@@ -34,8 +35,8 @@ namespace leapyear
                 }
                
                 Console.WriteLine("Desea ingresar otro año s/n");
-                string another = Console.ReadLine();
-                if (another == "n")
+                otravez = Console.ReadLine();
+                if (otravez == "n")
                 {
                     salir = true;
                 }
